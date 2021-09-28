@@ -1,0 +1,393 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap");
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: #6b301b;
+  background-image: url(https://i.pinimg.com/originals/42/1a/50/421a50739c3f5c2cfe350f7abbff4d0b.jpg);
+  background-position: bottom;
+}
+
+section {
+  background-color: #76fc55;
+  background-image: url(https://www.lv16.com.ar/archivos/img/o/112612_1536574368_863.jpg);
+  background-size: cover;
+  background-position: right;
+}
+
+footer {
+  background-color: #6b301b;
+  background-image: url(https://pbs.twimg.com/media/CVNzk38WwAAGhGT.jpg);
+  background-position: center;
+  border: 5px solid #4b1f25;
+}
+
+header {
+  background-color: #6b301b;
+  background-image: url(https://i.pinimg.com/originals/42/1a/50/421a50739c3f5c2cfe350f7abbff4d0b.jpg);
+  background-position: bottom;
+}
+
+header a.home {
+  color: khaki;
+}
+
+header a.google {
+  color: #f3f3f3;
+}
+
+header a.company {
+  color: navajowhite;
+}
+
+header a.contact {
+  color: #99f309;
+}
+
+header a.staff {
+  color: olive;
+}
+
+header a.products {
+  color: #89b383;
+}
+
+header a.blog {
+  color: #1111aa;
+}
+
+header .nave li a {
+  text-decoration: none;
+  font-style: oblique;
+  font-size: 150%;
+  text-transform: capitalize;
+  position: relative;
+}
+
+header li {
+  list-style-type: none;
+  text-align: center;
+  display: inline-block;
+  padding: 20px;
+  border: solid #f16f9a;
+  margin: 50px;
+  border-width: 7px;
+  border-spacing: 1px;
+  border-style: groove;
+  position: relative;
+}
+
+header nav.redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header #autor {
+  color: #f1f5f0;
+}
+
+header .naveDisplay {
+  padding: 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body {
+  background-color: black;
+  /** cards grid** **Transiciones** **animaciones**/
+}
+
+body h1 {
+  color: #dd0808;
+  font-weight: 100;
+  font-size: 300%;
+  text-align: center;
+  text-decoration: underline;
+}
+
+body h1:hover {
+  color: yellow;
+}
+
+body h2 {
+  color: #df8c8c;
+  font-weight: 300;
+}
+
+body p.loremUno {
+  color: #435737;
+  font-weight: 300;
+  font-size: 200%;
+  word-spacing: 3px;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: cuatro;
+      justify-self: center;
+}
+
+body p.loremDos {
+  color: #09bbac;
+  font-style: 200;
+  font-size: 250%;
+  word-spacing: 2px;
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: cinco;
+      justify-self: center;
+}
+
+body p.loremTres {
+  color: #0e2f9e;
+  font-weight: 100;
+  font-size: 200%;
+  word-spacing: 1px;
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: seis;
+      justify-self: right;
+}
+
+body ul {
+  color: #111110;
+}
+
+body h3 {
+  color: #3a15b4;
+}
+
+body tr.corteArriba {
+  color: #976d02;
+}
+
+body tr {
+  color: darkred;
+}
+
+body .boxPrincipal {
+  margin-bottom: 2rem;
+  padding: 0.2rem;
+  border-radius: 25px;
+  height: 1400px;
+  width: 1650px;
+  border: 7px solid #4b1f25;
+}
+
+body article.video {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .cortado {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 500px 500px 500px;
+      grid-template-columns: 500px 500px 500px;
+  -ms-grid-rows: 400px 400px;
+      grid-template-rows: 400px 400px;
+      grid-template-areas: "uno dos tres"
+ "cuatro cinco seis";
+}
+
+body .imgUno {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: uno;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+body .imgUno:hover {
+  width: 350px;
+  height: 300px;
+}
+
+body .imgDos {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: dos;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+body .imgDos:hover {
+  width: 350px;
+  height: 300px;
+}
+
+body .imgTres {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: tres;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+body .imgTres:hover {
+  width: 350px;
+  height: 300px;
+}
+
+body .logoDos {
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-name: logovaca;
+          animation-name: logovaca;
+}
+
+@-webkit-keyframes logovaca {
+  0% {
+    width: 100px;
+  }
+  25% {
+    width: 300px;
+  }
+  50% {
+    width: 200px;
+  }
+}
+
+@keyframes logovaca {
+  0% {
+    width: 100px;
+  }
+  25% {
+    width: 300px;
+  }
+  50% {
+    width: 200px;
+  }
+}
+
+@media (max-width: 600px) {
+  body body {
+    background-color: blueviolet;
+  }
+  body .cortado {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 500px 500px 500px;
+        grid-template-columns: 500px 500px 500px;
+    -ms-grid-rows: 400px 400px;
+        grid-template-rows: 400px 400px;
+        grid-template-areas: "uno dos tres"
+ "cuatro cinco seis";
+  }
+}
+
+h1.blog {
+  color: #e63737;
+  font-weight: 100;
+  font-size: 300%;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h1.blog h2 {
+  color: #df8c8c;
+  font-weight: 300;
+}
+
+h1.blog h1:hover {
+  color: yellow;
+}
+
+h1.company {
+  color: #f046c5;
+  font-weight: 100;
+  font-size: 300%;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h1.company h2 {
+  color: #df8c8c;
+  font-weight: 300;
+}
+
+h1.company h1:hover {
+  color: yellow;
+}
+
+h1.contact {
+  color: #f1eaea;
+  font-weight: 100;
+  font-size: 300%;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h1.contact h2 {
+  color: #df8c8c;
+  font-weight: 300;
+}
+
+h1.contact h1:hover {
+  color: yellow;
+}
+
+h1.contact .formulario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+}
+
+h1.productos {
+  color: #42b2f3;
+  font-weight: 100;
+  font-size: 300%;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h1.productos h2 {
+  color: #df8c8c;
+  font-weight: 300;
+}
+
+h1.productos h1:hover {
+  color: yellow;
+}
+
+h1.staff {
+  color: #0a0a0a;
+  font-weight: 100;
+  font-size: 300%;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h1.staff h2 {
+  color: #df8c8c;
+  font-weight: 300;
+}
+
+h1.staff h1:hover {
+  color: yellow;
+}
+/*# sourceMappingURL=style.css.map */

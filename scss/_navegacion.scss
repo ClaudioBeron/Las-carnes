@@ -1,0 +1,89 @@
+header {
+    background-color: rgb(107, 48, 27);
+    background-image: url(https://i.pinimg.com/originals/42/1a/50/421a50739c3f5c2cfe350f7abbff4d0b.jpg);
+    background-position: bottom;
+
+    a.home {
+        color: khaki;
+    }
+
+    a.google {
+        color: rgb(243, 243, 243);
+    }
+
+    a.company {
+        color: navajowhite;
+    }
+
+    a.contact {
+        color: rgb(153, 243, 9);
+    }
+
+    a.staff {
+        color: olive;
+    }
+
+    a.products {
+        color: rgb(137, 179, 131);
+    }
+
+    a.blog {
+        color: rgb(17, 17, 170);
+    }
+
+    .nave li a {
+        text-decoration: none;
+        font-style: oblique;
+        font-size: 150%;
+        text-transform: capitalize;
+        position: relative;
+    }
+
+    li {
+        list-style-type: none;
+        text-align: center;
+        display: inline-block;
+        padding: 20px;
+        border: solid rgb(241, 111, 154);
+        margin: 50px;
+        border-width: 7px;
+        border-spacing: 1px;
+        border-style: groove;
+        position: relative;
+    }
+    /* maps */
+    $social:(
+        instagram: #55acee,
+        facebook: #3a5795
+        sendmail: #c25e30
+   );
+        
+    /* each */
+    @each $redes , $color in $social {
+        #{$redes}  {
+            background-color:  $color
+
+
+        
+
+        }
+        
+    }
+    
+    .redes {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #autor {
+        color: rgb(241, 245, 240);
+    } 
+    .naveDisplay {
+        padding: 1rem 0;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }       
+
+}
