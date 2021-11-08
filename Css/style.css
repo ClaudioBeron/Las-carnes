@@ -30,8 +30,8 @@ header {
 }
 
 header a.home {
-  color: #eeedf3;
-  font-weight: 500;
+  color: #ffffff;
+  font: size 500px; 
 }
 
 header a.google {
@@ -122,16 +122,16 @@ body h1 {
 }
 
 body h1:hover {
-  color: yellow;
+  color: rgb(55, 0, 255);
 }
 
 body h2 {
-  color: #362401;
+  color: #ffffff;
   font-weight: 400;
 }
 
 body p.loremUno {
-  color: #000000;
+  color: #ffffffdc;
   font-weight: 300;
   font-size: 200%;
   word-spacing: 3px;
@@ -142,7 +142,7 @@ body p.loremUno {
 }
 
 body p.loremDos {
-  color: #000000;
+  color: #ffffff;
   font-style: 200;
   font-size: 250%;
   word-spacing: 2px;
@@ -153,8 +153,8 @@ body p.loremDos {
 }
 
 body p.loremTres {
-  color: #000000;
-  font-weight: 100;
+  color: #ffffff;
+  font-weight: 300;
   font-size: 200%;
   word-spacing: 1px;
   -ms-grid-row: 2;
