@@ -12,16 +12,16 @@ h1 {
 
 
 h1:hover {
-    color: yellow;
+    color: rgb(25, 0, 255);
 }
 
 h2 {
-    color: rgb(223, 140, 140);
+    color: rgb(0, 0, 0);
     font-weight: 300;
 }
 
 p.loremUno {
-    color: rgb(67, 87, 55);
+    color: rgb(255, 255, 255);
     font-weight: 300;
     font-size: 200%;
     word-spacing: 3px;
@@ -31,7 +31,7 @@ p.loremUno {
 }
 
 p.loremDos {
-    color: rgb(9, 187, 172);
+    color: rgb(255, 255, 255);
     font-style: 200;
     font-size: 250%;
     word-spacing: 2px;
@@ -40,7 +40,7 @@ p.loremDos {
 }
 
 p.loremTres {
-    color: rgb(14, 47, 158);
+    color: rgb(255, 255, 255);
     font-weight: 100;
     font-size: 200%;
     word-spacing: 1px;
