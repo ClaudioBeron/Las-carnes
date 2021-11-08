@@ -30,37 +30,38 @@ header {
 }
 
 header a.home {
-  color: khaki;
+  color: #eeedf3;
+  font-weight: 500;
 }
 
 header a.google {
-  color: #f3f3f3;
+  color: #eeedf3;
 }
 
 header a.company {
-  color: navajowhite;
+  color: #eeedf3;
 }
 
 header a.contact {
-  color: #99f309;
+  color: #eeedf3;
 }
 
 header a.staff {
-  color: olive;
+  color: #eeedf3;
 }
 
 header a.products {
-  color: #89b383;
+  color: #eeedf3;
 }
 
 header a.blog {
-  color: #1111aa;
+  color: #eeedf3;
 }
 
 header .nave li a {
   text-decoration: none;
-  font-style: oblique;
-  font-size: 150%;
+  font-style:  oblique;
+  font-size: 200%;
   text-transform: capitalize;
   position: relative;
 }
@@ -125,12 +126,12 @@ body h1:hover {
 }
 
 body h2 {
-  color: #df8c8c;
-  font-weight: 300;
+  color: #362401;
+  font-weight: 400;
 }
 
 body p.loremUno {
-  color: #435737;
+  color: #000000;
   font-weight: 300;
   font-size: 200%;
   word-spacing: 3px;
@@ -141,7 +142,7 @@ body p.loremUno {
 }
 
 body p.loremDos {
-  color: #09bbac;
+  color: #000000;
   font-style: 200;
   font-size: 250%;
   word-spacing: 2px;
@@ -152,7 +153,7 @@ body p.loremDos {
 }
 
 body p.loremTres {
-  color: #0e2f9e;
+  color: #000000;
   font-weight: 100;
   font-size: 200%;
   word-spacing: 1px;
@@ -183,7 +184,7 @@ body .boxPrincipal {
   padding: 0.2rem;
   border-radius: 25px;
   height: 1400px;
-  width: 1650px;
+  width: 1375px;
   border: 7px solid #4b1f25;
 }
 
@@ -196,8 +197,8 @@ body article.video {
 body .cortado {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 500px 500px 500px;
-      grid-template-columns: 500px 500px 500px;
+  -ms-grid-columns: 450px 450px 450px;
+      grid-template-columns: 450px 450px 450px;
   -ms-grid-rows: 400px 400px;
       grid-template-rows: 400px 400px;
       grid-template-areas: "uno dos tres"
@@ -287,7 +288,7 @@ body .logoDos {
   body .cortado {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 500px 500px 500px;
+    -ms-grid-columns: 450px 500px 500px;
         grid-template-columns: 500px 500px 500px;
     -ms-grid-rows: 400px 400px;
         grid-template-rows: 400px 400px;
