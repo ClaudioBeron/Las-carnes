@@ -31,7 +31,7 @@ header {
 
 header a.home {
   color: #ffffff;
-  font: size 500px; 
+  
 }
 
 header a.google {
@@ -203,6 +203,9 @@ body .cortado {
       grid-template-rows: 400px 400px;
       grid-template-areas: "uno dos tres"
  "cuatro cinco seis";
+  grid-template-columns: repeat(auto-fill, minmax
+ ( 450px, 1fr ));
+ gap: 16px;
 }
 
 body .imgUno {
@@ -281,20 +284,19 @@ body .logoDos {
   }
 }
 
-@media (max-width: 600px) {
+@media all and (max-width: 768px) {
   body body {
     background-color: blueviolet;
   }
-  body .cortado {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 450px 500px 500px;
-        grid-template-columns: 500px 500px 500px;
-    -ms-grid-rows: 400px 400px;
-        grid-template-rows: 400px 400px;
-        grid-template-areas: "uno dos tres"
- "cuatro cinco seis";
+   section .boxPrincipal{
+     background-color: #0a0a0a;
+    flex-direction: column;
   }
+  article .cortado {
+  grid-column: 1 / span 3;
+  flex-direction: column;
+}
+  
 }
 
 h1.blog {
